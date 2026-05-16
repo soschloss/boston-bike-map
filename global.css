@@ -1,10 +1,31 @@
 body {
   font: 100%/1.5 system-ui, sans-serif;
-  display: flex;
-  flex-flow: column;
-  max-width: 80em;
-  min-height: 100vh;
-  box-sizing: border-box;
-  margin: auto;
+  margin: 0;
   padding: 1em;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+    width: 90%;
+}
+
+header label {
+    margin-left: auto;
+}
+
+header label time,
+header label em {
+    display: block;
+}
+
+header label em {
+    color: #888;
+    font-style: italic;
 }
